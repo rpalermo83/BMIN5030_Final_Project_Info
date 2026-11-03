@@ -16,15 +16,23 @@ Use this template to complete your project throughout the course. Your Final Pro
 
 Give a brief a description of your project and its goal(s), what data you are using to complete it, and what two faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
 
-> **For this project, I will be examining data from Sickbay, which is a software system that continuous records data (numeric and waveform) from bedside monitors and devices. This is utilized in the cardiac ICU at CHOP to monitor patients after cardiac surgery. Hyperglycemia can be seen in this population, but treatment remains controversial. I hypothesize that trends in the thermodynamic bedside data will be associated with greater levels of postoperative hyperglycemia.**
+> For this project, I will be examining data from Sickbay, which is a software system that continuously records data (numeric and waveform) from bedside monitors and devices. This is utilized in the cardiac ICU at CHOP to monitor patients after cardiac surgery. This is a newer technology that is being used to predict outcomes and study effects of different treatments. I will be evaluating the effects of a loading dose of digoxin in patients following congenital cardiac surgery.
 >
-> **Michael Goldsmith, MD, Associate Professor of Clinical Anesthesiology and Critical Care, Attending Physician, Anesthesiology and Critical Care Medicine, Children's Hospital of Philadelphia, Director of Cardiac Informatics, Health Informatics Team, Children's Hospital of Philadelphia**
+> My advisors are Michael Goldsmith, MD and Stephon Proctor, PhD, ABPP. Dr. Goldsmith is an Associate Professor of Clinical Anesthesiology and Critical Care, Attending Physician, Anesthesiology and Critical Care Medicine, Children's Hospital of Philadelphia, Director of Cardiac Informatics at CHOP. Dr. Proctor is an Associate Professor of Clinical Psychiatry at the University of Pennsylvania, a clinical child psychologist at Children's Hospital of Philadelphia, a senior fellow in Penn Institute for Biomedical Informatics and Associate Chief Health Informatics Officer for EHR Platform and Innovation at CHOP.
+>
+> [Github site](https://github.com/rpalermo83/BMIN5030_Final_Project_Info.git)
 
 ## Introduction {#sec-introduction}
 
 Describe the problem addressed, its significance, and some background to motivate the problem. This should extend what is in the @sec-overview.
 
 Explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+
+Hypoplastic left heart syndrome (HLHS) is a combination of congenital heart defects that result in very small left-sided heart structures that are unable to circulate blood to the body. In the most basic sense, these patients essentially have half of a heart. These patients can be palliated by three surgeries over the first few years of life to to give them proper circulation. There have been many advances in cardiothoracic surgical techniques over the last few decades that allow them live into adulthood, but these patients are still the highest risk for morbidity and mortality. Digoxin is a medication that inhibits the Na+/K+ ATPase enzyme, which increases intracellular sodium and calcium levels. It is frequently used to treat arrhythmias, but can also increase heart muscle contractility in heart failure.
+
+Recent studies have shown a trend towards improved survival with digoxin use in this patient population. Digoxin has a narrow therapeutic window and if the levels are too high, it can cause dangeous cardiac arrhythmias, so it cannot be used indiscriminately. Toxicity is most common in patients with kidney disease or electrolyte abnormalities. This study will evaluate the acute effects of digoxin in HLHS patients admitted to the cardiac ICU following. This popluation may have the greatest benefit from treatment, but also has a higher likelihood of the toxicity risk factors.
+
+Sickbay provides continuous data from bedside monitors and devices in the ICU. These data include markers of patient clinical status such as heart rate and blood pressure, but also lab values, ECG waveforms, urine output and ventilation. Subtle changes in these markers can be precursous to a significant outcome, such as cardiac arrest or death. The results of this study can be useful for ICU teams, cardiologists, nephrologists and surgeons. Data scientists and informaticists may also be interested in this study to stimulate other explorations of this high-volume, multi-format dataset.
 
 ## Methods {#sec-methods}
 
